@@ -68,6 +68,9 @@ body {
       &:focus {
         color: $oc-orange-8;
         text-decoration: none;
+        background-color: $background-over-color;
+        border-color: transparent;
+        border-radius: 10px;
       }
     }
   }
