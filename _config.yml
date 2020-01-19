@@ -24,7 +24,7 @@ author:
 
 copyright:
   year:             2020
-  name:             All rights reserved
+  name:             
 
 # Google-analytics
 google-analytics:
@@ -45,7 +45,7 @@ timezone:           America/New_York
 permalink:          /:year-:month-:day/:title/
 
 # Pagination
-paginate:           5
+paginate:           10
 paginate_path:      /page:num/
 
 # Markdown
