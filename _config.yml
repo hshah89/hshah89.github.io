@@ -32,6 +32,7 @@ gems:
 
 # Custom variables
 version: "1.0.0"
+copyright: "&copy 2020"
 
 # Options
 custom_header: true
