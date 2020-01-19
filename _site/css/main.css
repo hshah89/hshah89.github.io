@@ -410,6 +410,16 @@ img {
   -ms-border-radius: 4px;
   border-radius: 4px; }
 
+img[title="post-img"] {
+    /*max-width: 100%;*/
+    display: left;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px; }
+
 img[title="Monochrome"] {
   box-shadow: 0 2px 6px #ddd; }
 
