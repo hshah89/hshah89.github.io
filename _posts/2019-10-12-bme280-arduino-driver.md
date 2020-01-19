@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BME280_Arduino_Driver"
+title: "BME280 - Sensor"
 description: "Interfacing with arduino"
 date: 2019-10-12
 tags: [arduino, sensor]
