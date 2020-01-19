@@ -16,3 +16,5 @@ The sensor can be communicated via:
 - 4 Wire SPI
 
 For this driver, I decided to go with I2C for a couple of reasons. **One**, it requires the least amount of wires and **Two**, even at I2C the device supports 3.4 MHz speed.
+
+![Text](../images/bme280_arduino_driver/bme280_back.jpg | width=10)
