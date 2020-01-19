@@ -1,7 +1,11 @@
 ---
 layout: page
-title: About Me
-description: This is the about me page
+title: About
+permalink: /about/
 ---
-## About
-At some point I will tell you all a little about my self. By day, I am hardware engineer (specializing in the RF domain). I also enjoy experimenting with microcontrollers and FPGAs. 
+
+This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+
+You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+
+You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
