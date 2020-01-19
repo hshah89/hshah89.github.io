@@ -37,4 +37,4 @@ copyright: "&copy 2020"
 # Options
 custom_header: true
 custom_nav_footer: true
-reverse: false
+reverse: true
