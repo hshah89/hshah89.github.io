@@ -52,7 +52,7 @@ paginate_path:      /page:num/
 markdown:           kramdowm
 kramdown:
   input:            GFM
-highlighter: rouge
+
 
 # Navigation
 nav:
