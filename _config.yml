@@ -49,9 +49,10 @@ paginate:           10
 paginate_path:      /page:num/
 
 # Markdown
-markdown:           Maruku
+markdown:           kramdowm
 kramdown:
   input:            GFM
+highlighter: rogue
 
 # Navigation
 nav:
