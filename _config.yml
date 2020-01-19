@@ -4,9 +4,9 @@
 
 # Basic
 name:               "Electronics Corner"
-
+title:              "Electronics Corner"
 # Short bio or description (displayed in the header)
-description: Thinkering with hardware
+description: "Thinkering with hardware"
 author:
   facebook:         
   youtubeUser:      
@@ -40,6 +40,7 @@ disqus:
 url:                "https://hshah89.github.io" # the base hostname & protocol for your site
 # url:                "http://localhost:4000" # use this url when you develop
 baseurl:            "/" # the subpath of your site, e.g. /blog
+
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
