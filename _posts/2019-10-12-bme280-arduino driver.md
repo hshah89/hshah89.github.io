@@ -25,6 +25,11 @@ For this example, I will be using I2C to communicate with the sensor. When using
 
 The table also shows the connection to an Arduino.
 
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
 <table>
 						<thead>
 							<tr>
