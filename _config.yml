@@ -49,8 +49,8 @@ paginate:           10
 paginate_path:      /page:num/
 
 # Markdown
-markdown:           kramdowm
-kramdown:
+markdown: kramdown
+highlighter: rouge
   input:            GFM
 
 
