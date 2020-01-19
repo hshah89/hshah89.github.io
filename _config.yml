@@ -50,7 +50,6 @@ paginate_path:      /page:num/
 
 # Markdown
 markdown: kramdown
-
 kramdown:
   input: GFM
   syntax_highlighter: rouge
