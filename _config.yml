@@ -9,7 +9,7 @@ github_username:  hshah89
 
 # Build settings
 markdown: kramdown
-remote_theme: chesterhow/tale
+remote_theme: dyutibarma/monochrome
 
 permalink:      /:year-:month-:day/:title
 paginate:       5
