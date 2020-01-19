@@ -1,31 +1,39 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
-twitter_username: Taffyer 
-github_username:  wild-flame 
+title: Electronics Corner | Thinkering with hardware
+description: "Thinkering with hard-firm-soft ware"
+url: "http://www.hshah89.github.io"
+author:
+  name: "Harit"
+  email: "harit26+blog@gmail.com"
+  url: "http://www.hshah89.github.io"
 
 # Build settings
+baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
-kramdown:
-  input: GFM
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 25
+paginate_path: /page:num/
 
-# Third-party services
-# just leave someone empty to disable it
-# google_analytics: 
-disqus_shortname:
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
 
-# used this for post_excerpt at index_page
-excerpt_separator: <!--description-->
+# Plugins
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Custom variables
+version: "1.0.0"
+
+# Options
+custom_header: true
+custom_nav_footer: true
+reverse: false
