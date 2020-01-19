@@ -5,6 +5,8 @@
 # Basic
 name:               "Electronics Corner"
 
+# Short bio or description (displayed in the header)
+description: Thinkering with hardware
 author:
   facebook:         
   youtubeUser:      
