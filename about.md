@@ -1,6 +1,7 @@
 ---
-title: About Me
+layout: page
+title: About
 permalink: /about/
 ---
 
-This page is about me...at some point it will be filled in.
+Introduce yourself here... so people will know who you are and what you do.. blah..blah..blah..
