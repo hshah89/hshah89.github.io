@@ -3,34 +3,25 @@ layout: default
 title: Home
 ---
 
-    <section class="section site-portfolio">
-      <div class="container">
-        <div class="row mb-5 align-items-center">
-          <div class="col-md-12 col-lg-6 mb-4 mb-lg-0" data-aos="fade-up">
-            <h2>Hi, I'm Harit</h2>
-            <p class="mb-0">Here you'll find projects that I've been working on my spare time.</p>
-          </div>
-          <div class="col-md-12 col-lg-6 text-start text-lg-end" data-aos="fade-up" data-aos-delay="100">
-            <div id="filters" class="filters">
-              <a href="#" class="active">Home</a>
-              <a href="#">About Me</a>
-              <a href="#">Github</a>
-            </div>
-          </div>
-        </div>
-        <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
-          {% for post in site.posts %}
-          
-            <div class="item web col-sm-6 col-md-4 col-lg-4 mb-4">
-              <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" class="item-wrap fancybox">
-                <div class="work-info">
-                  <h2>{{post.title}}</h2>
-                  <h6>{{post.description}}</h6>
-                </div>
-                <img class="img-fluid" src="{{ "/assets/img/projects/" | append: post.image }}">
-              </a>
-            </div>
-          {% endfor %}
-        </div>
-      </div>
-    </section><!-- End  Works Section -->
+{% include intro.html %}
+
+<section class="post-list">
+  <div class="container">
+    {% for post in site.posts %}
+      {% unless post.next %}
+        <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
+      {% else %}
+        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+        {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+        {% if year != nyear %}
+          <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
+        {% endif %}
+      {% endunless %}
+      <article class="post-item">
+        <span class="post-meta date-label">{{ post.date | date: "%b %d" }}</span>
+        <div class="article-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></div>
+      </article>
+    {% endfor %}
+  </div>
+
+</section>
