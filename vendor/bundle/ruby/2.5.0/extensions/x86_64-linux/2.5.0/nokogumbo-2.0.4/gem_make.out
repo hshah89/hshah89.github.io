@@ -1,0 +1,43 @@
+current directory: /home/harit/projects/test_project/vendor/bundle/ruby/2.5.0/gems/nokogumbo-2.0.4/ext/nokogumbo
+/usr/bin/ruby2.5 -r ./siteconf20210205-4402-17htw9.rb extconf.rb
+checking for libxml/tree.h in /home/harit/projects/test_project/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.11.1-x86_64-linux/ext/nokogiri/include/libxml2... yes
+checking for nokogiri.h in /home/harit/projects/test_project/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.11.1-x86_64-linux/ext/nokogiri... no
+creating Makefile
+
+current directory: /home/harit/projects/test_project/vendor/bundle/ruby/2.5.0/gems/nokogumbo-2.0.4/ext/nokogumbo
+make "DESTDIR=" clean
+
+current directory: /home/harit/projects/test_project/vendor/bundle/ruby/2.5.0/gems/nokogumbo-2.0.4/ext/nokogumbo
+make "DESTDIR="
+compiling ./../../gumbo-parser/src/ascii.c
+compiling ./../../gumbo-parser/src/attribute.c
+compiling ./../../gumbo-parser/src/char_ref.c
+compiling ./../../gumbo-parser/src/error.c
+compiling ./../../gumbo-parser/src/foreign_attrs.c
+compiling nokogumbo.c
+In file included from /usr/include/ruby-2.5.0/ruby/ruby.h:2040:0,
+                 from /usr/include/ruby-2.5.0/ruby.h:33,
+                 from nokogumbo.c:22:
+/usr/include/ruby-2.5.0/ruby/intern.h:887:29: warning: ‘struct timespec’ declared inside parameter list will not be visible outside of this definition or declaration
+ void rb_timespec_now(struct timespec *);
+                             ^~~~~~~~
+/usr/include/ruby-2.5.0/ruby/intern.h:890:41: warning: ‘struct timespec’ declared inside parameter list will not be visible outside of this definition or declaration
+ VALUE rb_time_timespec_new(const struct timespec *, int);
+                                         ^~~~~~~~
+compiling ./../../gumbo-parser/src/parser.c
+compiling ./../../gumbo-parser/src/string_buffer.c
+compiling ./../../gumbo-parser/src/string_piece.c
+compiling ./../../gumbo-parser/src/svg_attrs.c
+compiling ./../../gumbo-parser/src/svg_tags.c
+compiling ./../../gumbo-parser/src/tag.c
+compiling ./../../gumbo-parser/src/tag_lookup.c
+compiling ./../../gumbo-parser/src/token_buffer.c
+compiling ./../../gumbo-parser/src/tokenizer.c
+compiling ./../../gumbo-parser/src/utf8.c
+compiling ./../../gumbo-parser/src/util.c
+compiling ./../../gumbo-parser/src/vector.c
+linking shared-object nokogumbo/nokogumbo.so
+
+current directory: /home/harit/projects/test_project/vendor/bundle/ruby/2.5.0/gems/nokogumbo-2.0.4/ext/nokogumbo
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 nokogumbo.so ./.gem.20210205-4402-1oa0pup/nokogumbo
