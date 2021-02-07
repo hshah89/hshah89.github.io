@@ -1,0 +1,65 @@
+find_header: checking for libxml/tree.h in /home/harit/projects/test_project/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.11.1-x86_64-linux/ext/nokogiri/include/libxml2... -------------------- yes
+
+"gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-2.5.0 -I/usr/include/ruby-2.5.0/ruby/backward -I/usr/include/ruby-2.5.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -fdebug-prefix-map=/build/ruby2.5-KHV_pi/ruby2.5-2.5.7=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC -std=c99 conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -fstack-protector -rdynamic -Wl,-export-dynamic     -lruby-2.5  -lpthread -lgmp -ldl -lcrypt -lm   -lc"
+/usr/lib/ruby/2.5.0/mkmf.rb:395: warning: Insecure world writable dir /mnt/c/ProgramData/Anaconda3 in PATH, mode 040777
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return 0;
+6: }
+/* end */
+
+"gcc -E -I/usr/include/x86_64-linux-gnu/ruby-2.5.0 -I/usr/include/ruby-2.5.0/ruby/backward -I/usr/include/ruby-2.5.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -fdebug-prefix-map=/build/ruby2.5-KHV_pi/ruby2.5-2.5.7=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC -std=c99  conftest.c -o conftest.i"
+conftest.c:3:10: fatal error: libxml/tree.h: No such file or directory
+ #include <libxml/tree.h>
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <libxml/tree.h>
+/* end */
+
+"gcc -E -I/usr/include/x86_64-linux-gnu/ruby-2.5.0 -I/usr/include/ruby-2.5.0/ruby/backward -I/usr/include/ruby-2.5.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -fdebug-prefix-map=/build/ruby2.5-KHV_pi/ruby2.5-2.5.7=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC -std=c99 -I/home/harit/projects/test_project/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.11.1-x86_64-linux/ext/nokogiri/include/libxml2 conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <libxml/tree.h>
+/* end */
+
+--------------------
+
+find_header: checking for nokogiri.h in /home/harit/projects/test_project/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.11.1-x86_64-linux/ext/nokogiri... -------------------- no
+
+"gcc -E -I/usr/include/x86_64-linux-gnu/ruby-2.5.0 -I/usr/include/ruby-2.5.0/ruby/backward -I/usr/include/ruby-2.5.0 -I. -I/home/harit/projects/test_project/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.11.1-x86_64-linux/ext/nokogiri/include/libxml2 -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -fdebug-prefix-map=/build/ruby2.5-KHV_pi/ruby2.5-2.5.7=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC -std=c99  conftest.c -o conftest.i"
+conftest.c:3:10: fatal error: nokogiri.h: No such file or directory
+ #include <nokogiri.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <nokogiri.h>
+/* end */
+
+"gcc -E -I/usr/include/x86_64-linux-gnu/ruby-2.5.0 -I/usr/include/ruby-2.5.0/ruby/backward -I/usr/include/ruby-2.5.0 -I. -I/home/harit/projects/test_project/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.11.1-x86_64-linux/ext/nokogiri/include/libxml2 -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -fdebug-prefix-map=/build/ruby2.5-KHV_pi/ruby2.5-2.5.7=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC -std=c99 -I/home/harit/projects/test_project/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.11.1-x86_64-linux/ext/nokogiri conftest.c -o conftest.i"
+In file included from conftest.c:3:0:
+/home/harit/projects/test_project/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.11.1-x86_64-linux/ext/nokogiri/nokogiri.h:36:10: fatal error: libxslt/extensions.h: No such file or directory
+ #include <libxslt/extensions.h>
+          ^~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <nokogiri.h>
+/* end */
+
+--------------------
+
