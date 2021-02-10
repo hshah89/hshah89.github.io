@@ -14,7 +14,7 @@ share: false
 <p align="center">
   <img src="{{ "/images/04_1hz_source/1hz_source_front.jpg" | prepend: site.baseurl }}" width="50%" />
   <br>
-  <em>Populated & Unpopulated PCB</em>
+  <em>PCB close up</em>
 </p>
 
 ## Parts needed
