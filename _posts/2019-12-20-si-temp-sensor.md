@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Si7021: Sensor"
-description: "Interfacing with arduino"
+description: "Interfacing with Arduino"
 date: 2019-12-20
-tags: [arduino, sensor]
+tags: [Arduino, sensor]
 image: "02_si7021_cover.jpg"
 comments: false
 share: false
