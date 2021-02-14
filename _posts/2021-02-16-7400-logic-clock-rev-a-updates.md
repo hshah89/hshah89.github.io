@@ -35,7 +35,10 @@ The SET (nSD) pin is set to H. The RESET (nRD) pin gets toggled from H to L when
 This was resolved by cutting the D pin from the C pin and connecting the D pin to VCC.
 
 So just 1 cut and 1 jumper and the clock worked as designed. See the GIF below:
-
+<p align="center">
+  <img src="{{ "/images/08_7400_clock_rev_a_updates/cut_jumper.jpg" | prepend: site.baseurl }}" width="50%"   />
+  <br>
+</p>
 <p align="center">
   <img src="{{ "/images/08_7400_clock_rev_a_updates/clock_final.gif" | prepend: site.baseurl }}" />
   <br>
