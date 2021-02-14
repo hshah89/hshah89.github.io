@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "7400 Logic Clock: Revision A"
-description: "Accurate 1Hz source, no programming needed"
+description: "No programming needed clock"
 date: 2021-01-26
 tags: [signal generator, clock]
 image: "06_7400_clock_rev_a.jpg"
