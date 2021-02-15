@@ -6,13 +6,13 @@ title: Home
 {% include intro.html %}
 
 {% for post in site.posts %}
-
+<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" class="item-wrap fancybox">
   <div class="container_grid">
     <div class="column left">
       <div class="work-info" >
-        <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" class="item-wrap fancybox">
+        
           <img class="img " src="{{ " /assets/img/projects/" | append: post.image }}">
-        </a>
+        
       </div>
     </div>
     <div class="column right">
@@ -22,4 +22,5 @@ title: Home
         <p>{{ post.description }}</p>
     </div>
   </div>
+</a>
 {% endfor %}
