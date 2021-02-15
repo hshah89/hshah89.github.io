@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "7400 Logic Clock: Revision A Updates"
-description: "Bug fixes and improvements"
+description: "Bug fixes and improvements from rev A of the 7400 series clock"
 date: 2021-02-13
 tags: [signal generator, clock]
 image: "08_7400_clock_rev_a_updates.jpg"

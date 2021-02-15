@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Si7021: Sensor"
-description: "Interfacing with Arduino"
+description: "A how to guide on interfacing the Si7021 temperature/humidity sensor to an Arduino"
 date: 2019-12-20
 tags: [Arduino, sensor]
 image: "02_si7021_cover.jpg"

@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Not Your Typical 1Hz Source"
-description: "Accurate 1Hz source, no programming needed"
+description: "An accurate 1Hz source that works out the box for your time keeping needs"
 date: 2021-01-21
 tags: [signal generator, clock]
-image: "04_1hz_source.jpg"
+image: "05_1hz_source.jpg"
 comments: false
 share: false
 ---

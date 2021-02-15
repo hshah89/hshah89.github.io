@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Node Red Part 2: Google Sheets Logging"
-description: "Google Sheets, MQTT, Node-red"
+description: "How to log data from Node-Red to Google sheets for that sweet data!"
 date: 2021-02-13
 tags: [node red, mqtt, data, data collection]
 image: "07_node_red_gsheet.jpg"

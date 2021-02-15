@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "7400 Logic Clock: Revision A"
-description: "No programming needed clock"
+description: "A clock based on 7400 Series logic ICs. It requires no programming."
 date: 2021-01-26
 tags: [signal generator, clock]
 image: "06_7400_clock_rev_a.jpg"
